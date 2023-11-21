@@ -11,8 +11,6 @@ ENG_UK = enchant.Dict('en_UK')
 ENG_US = enchant.Dict('en_US')
 
 
-RUSSIAN_LETTERS = 'абвгдеёжзийклмнопрстуфхцчшщьыъэюя'
-
 
 class A1Z26Cifer:
     def __init__(self, language: Literal['en', 'ru'] = 'en') -> None:
